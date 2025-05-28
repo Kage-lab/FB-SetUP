@@ -1,1 +1,1 @@
-export const Textarea = (props) => <textarea className='border p-2 w-full' {...props} />;
+export const Textarea = (props) => <textarea className='border p-2 w-full rounded' {...props} />;

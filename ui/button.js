@@ -1,1 +1,1 @@
-export const Button = (props) => <button {...props} />;
+export const Button = (props) => <button className='p-2 rounded bg-blue-500 text-white' {...props} />;

@@ -1,2 +1,2 @@
-export const Card = ({ children }) => <div className='border p-4 rounded-md bg-white'>{children}</div>;
-export const CardContent = ({ children }) => <div>{children}</div>;
+export const Card = ({ children }) => <div className='bg-white border rounded-md shadow-md'>{children}</div>;
+export const CardContent = ({ children, className = '' }) => <div className={`p-4 ${className}`}>{children}</div>;
